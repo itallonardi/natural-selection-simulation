@@ -2,6 +2,10 @@
 
 This project implements a natural selection simulation using the Pygame library. Organisms move, reproduce, eat, and eventually die in an environment with different types of terrain, simulating the basic principles of evolution and adaptation to the environment. When reproducing, organisms pass their characteristics to their offspring within a variation, allowing evolution over time.
 
+## Demonstration
+
+![Simulation Demo](demo.gif)
+
 ## Project Structure
 
 The project structure is organized as follows:
@@ -13,9 +17,10 @@ natural-selection-simulation
 ├── terrain.py
 ├── organism.py
 ├── utils.py
-└── assets
-    ├── __init__.py
-    └── font.py
+├── assets
+│   ├── __init__.py
+│   └── font.py
+└── demo.gif
 ```
 
 - `main.py`: Entry point of the program. Sets up the Pygame window, manages the main loop, and draws elements on the screen.
@@ -24,6 +29,7 @@ natural-selection-simulation
 - `organism.py`: Defines the Organism class, which represents the organisms in the simulation. Includes methods to move, eat, reproduce, and draw the organisms.
 - `utils.py`: Contains utility functions, such as creating food and drawing the organisms.
 - `assets`: Folder containing additional resources. In this case, it includes font loading.
+- `demo.gif`: Demonstration of the simulation in action.
 
 ## Requirements
 
